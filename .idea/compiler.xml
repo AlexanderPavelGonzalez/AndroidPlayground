@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="GoogleInterviewPrep.app" target="21" />
+      <module name="GoogleInterviewPrep.app.messenger" target="21" />
+      <module name="GoogleInterviewPrep.infra" target="21" />
+      <module name="GoogleInterviewPrep.messenger" target="21" />
+      <module name="GoogleInterviewPrep.networking" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
