@@ -106,6 +106,10 @@ class MainActivity : ComponentActivity() {
                                     setTopBarState = { topBarState = it }
                                 )
                             }
+                            composable(PracticeScreen.MessageDetails.route) { backStackEntry ->
+                                val messageId = backStackEntry.arguments?.getString("messageId")?.toInt() ?: return@composable
+                                Text(text = "$messageId")
+                            }
                         }
                 }
             }

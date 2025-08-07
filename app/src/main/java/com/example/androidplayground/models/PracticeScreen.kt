@@ -8,4 +8,5 @@ package com.example.androidplayground.models
 sealed class PracticeScreen(val route: String, val title: String) {
     object Home : PracticeScreen("home", "Practice Questions")
     object MessengerExample : PracticeScreen("messenger_example", "Messenger Example")
+    object MessageDetails : PracticeScreen("messageDetail/{messageId}", "Message Details")
 }
